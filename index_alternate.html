@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--  Google Sign-In -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+    <style>
+        .image-container1 {
+    background:url('Assets/5.jpg') no-repeat;
+    background-size:400px 300px;
+    height:300px;
+    width:400px;    float:right;
+}​
+   </style>
+    <title>Home page</title>
+  </head>
+  <body class="bg-warning">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <a class="navbar-brand" href="#">QkRes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Scan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item" style="text-align: right;"><a class="nav-link" href="#" onclick="signOut();">Sign out</a> </li>
+        </ul>
+
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+  </div>
+</nav>
+
+
+<!-- Body -->
+  
+
+<!--<div class="row">
+  <div class="col-sm-8" align="justify" style="margin-left: 6%";>
+            Welcome to the portal for mess registration for different slots.
+      </div>
+  <div class="col-sm-4"><img src="Assets/1.jpg" style="width:80%; height:60vh; padding-left: 15px; border-radius: 50% 0 0 50%; object-fit: cover;"></div>
+</div>
+<div class="row">
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+  <div class="col-sm">col-sm</div>
+</div> -->
+<div class="p-3 mb-2 bg-warning text-white">
+    
+    <div class="container">
+    <div class="row">
+      <div class="col-md">
+          
+          <p style="font-size: 60px; text-align: center; text-shadow: 2px 2px #ff0000;">
+            
+          Welcome to the portal for registration of mess for different slots
+          
+          </p>
+
+      </div>
+      <div class="col-md">
+       <!-- <p align="justify" style="padding-left: 40px;">
+          <img src="Assets/3.jpg" style="padding-left: 15px; border-radius: 50% 50% 50% 50%; object-fit: fill; float: right; height: 100%; width: 100%;border: 1px solid green"> -->
+         <!-- <div class="image-container1" style="border:4px solid green; border-radius: 50%; position: absolute; right: 0;  box-shadow: 5px 5px 5px 5px #90EE90;"></div> -->
+         <br>
+         <img src="Assets/5.jpg" style="width:80%; height:80%; border-radius:5%; box-shadow: 5px 5px 5px #fff; display:block; margin-left: auto; margin-right: auto;">
+
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>    
+      
+
+
+    
+
+
+<br>
+<br>
+<br>
+
+<!--Footer -->
+<nav class="navbar fixed-bottom navbar-dark bg-success">
+  <a class="navbar-brand" href="#">&copy; All rights reserved</a>
+</nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
