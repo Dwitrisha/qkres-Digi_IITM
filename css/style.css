@@ -7,42 +7,42 @@
 }
 
 /* Home Page Background */
-
-.welcome-area
-{
-    position: relative;
-    text-align: left;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Assets/home.jpg); */
-    background-image: url(../Assets/home.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    /* float: right; */
-    /* border-left: 30px solid rgba(72, 224, 161, 0.87); */
-    margin-left: 50%;
-    border-radius: 60% 0% 0% 60%;
-}
-
-.home-text{
+@media(min-width:768px){
+  .home-text{
     position: absolute;
-    top: 35%;
-    left: 5%;
-    color: #a00078;
-}
-.home-text2{
-  position: absolute;
-  top: 2%;
-  left: 5%;
-  color: #ffffff;
+    top: 10%;
+    left: 17%;
+    color: #ffffff;
+  }
 }
 
-.welcome2-area
+@media(min-width:992px){
+  .home-text{
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    color: #ffffff;
+  }
+}
+@media(min-width:1200px){
+  .home-text{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    color: #ffffff;
+  }
+}
+
+
+@media(max-width:767px){
+  .home-text{
+    position: absolute;
+    top: 2%;
+    /* left: 25%; */
+    color: #ffffff;
+  }
+}
+.welcome-area
 {
     position: relative;
     text-align: center;
