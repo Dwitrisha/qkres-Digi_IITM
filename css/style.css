@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montaga', serif;
+}
+
+/* Home Page Background */
+
+.welcome-area
+{
+    position: relative;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Assets/home.jpg); */
+    background-image: url(../Assets/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    /* float: right; */
+    /* border-left: 30px solid rgba(72, 224, 161, 0.87); */
+    margin-left: 50%;
+    border-radius: 60% 0% 0% 60%;
+}
+
+.home-text{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: #a00078;
+}
+.home-text2{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  color: #ffffff;
+}
+
+.welcome2-area
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Assets/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Login */
+
+#login{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Assets/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    color: azure;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
